@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-family: 'Bebas Neue', cursive;
+}
+
+
+.container{
+  
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url("background3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile > img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #222;
+  border-radius: 100%;
+}
+
+.profile > p{
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.link{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+
+ 
+}
+
+.link > a{
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 10px;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  background-color: #eaeaea;
+  border: 3px solid #222;
+  border-radius: 6px;
+}
+
+.link > a:hover{
+  background-color: slateblue;
+  color: #fff;
+}
+
+.footer{
+  text-align: center;
+}
+
+.footer > i{
+  color: white;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
